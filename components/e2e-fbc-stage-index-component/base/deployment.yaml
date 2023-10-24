@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: e2e-fbc-stage-index-component
     spec:
       containers:
-      - image: fbc:latest
+      - image: quay.io/redhat-user-workloads-stage/dev-release-team-tenant/e2e-fbc-stage-index-application/e2e-fbc-stage-index-component@sha256:460d01010bd33986b9d969916a529e7ef6d342721e5fc4258fb90a7941035f74
         name: fbc
         ports:
         - containerPort: 50051
